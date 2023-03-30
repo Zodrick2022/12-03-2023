@@ -1,0 +1,17 @@
+*{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+div{
+    width:  200px;
+    height: 128px;
+    border: 2px solid #000;
+    background-image: url('https://imgs.search.brave.com/lDQFfODdOrYH23FOMN9DvKvQLRSnXSCfBARUEOeYgJs/rs:fit:148:125:1/g:ce/aHR0cHM6Ly93d3cu/c3ByaXRlcnMtcmVz/b3VyY2UuY29tL3Jl/c291cmNlcy9zaGVl/dF9pY29ucy83OC84/MTM0OS5wbmc');
+    resize: both;
+    overflow: auto;
+
+    background-repeat: round;
+
+}
