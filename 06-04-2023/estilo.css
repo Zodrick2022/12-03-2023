@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url(imagenes/Frost.jpg);
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card-group:hover .card:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    transition: all 0.5s ease-in;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+  
+.card-group:hover .card:not(:hover) {
+    transform: scale(0.8);
+    opacity: 0.5;
+    transition: all 0.5s ease-in;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+  
+.card-group:not(:hover) .card {
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
